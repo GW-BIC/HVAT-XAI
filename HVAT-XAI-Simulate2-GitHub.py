@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 13 13:18:14 2025
-
-@author: VHAWASShaoY
-"""
 
 import numpy as np
 import math
@@ -246,4 +241,5 @@ if __name__ == '__main__':
     plt.plot(np.array(vs),np.array(v_impact),color='tab:blue',
              lw=2, label='Model based')
     plt.plot([-2,0,2],[4,0,0],ls='dashed', label='Ground truth')
+
     plt.legend()
